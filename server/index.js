@@ -6,7 +6,7 @@ import url from "url"
 const PORT = 3000   
 
 const server =  http.createServer()
-const wsServer = new WebSocketServer({ server: server, port: "wss://live-cursor.onrender.com" })
+const wsServer = new WebSocketServer({ server: server })
 
 const connnections = {}
 const users = {}
