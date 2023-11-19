@@ -5,7 +5,7 @@
 
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
+  background-color: #09090b;
 
   font-synthesis: none;
   text-rendering: optimizeLgibility;
@@ -19,4 +19,50 @@ body {
   place-items: center;
   min-width: 320px;
   min-height: 100vh;
+  justify-content: center;
+  text-align: center;
+}
+
+input {
+    outline: none;
+    padding: 10px;
+    border-radius: 7px;
+    border: none;
+    background-color: #18181b;
+    font-size: 17px;
+}
+
+input {
+    color: #a1a1aa;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+button {
+    cursor: pointer;
+    padding: 10px 30px;
+    border-radius: 7px;
+    background-color: #18181b;
+    outline: none;
+    border: none;
+    font-size: 17px;
+    color: #a1a1aa;
+}
+
+button:hover {
+    opacity: .75;
+}
+
+p { 
+    color: #3f3f46;
+}
+
+a {
+    color: white;
+    text-decoration:  underline;
 }

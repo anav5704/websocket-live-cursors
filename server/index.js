@@ -16,7 +16,6 @@ const broadcastUpdate = () => {
         const connection = connnections[uuid]
         const message = JSON.stringify(users)
         connection.send(message)
-        console.log(message)
     })
 }
 
@@ -44,8 +43,6 @@ wsServer.on("connection", (connection, request) => {
         username,
         state: { }
     }
-
-    console.log(username)
 
     connection.on("message", (message) => handleMessage(message, uuid))
     connection.on("close", () => handleClose(uuid))

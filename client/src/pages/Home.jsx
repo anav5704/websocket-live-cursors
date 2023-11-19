@@ -7,7 +7,7 @@ const renderCursors = (users) => {
     if(!users) return null
     return Object.keys(users).map((uuid) => {
         const user = users[uuid]
-        return <Cursor key={uuid} userId={uuid} point={[user.state.x, user.state.y]} />
+        return <Cursor key={uuid} username={user.username} point={[user.state.x, user.state.y]} />
     })
 }
 
