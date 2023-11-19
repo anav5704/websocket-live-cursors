@@ -6,7 +6,7 @@ import url from "url"
 const PORT = 3000   
 
 const server =  http.createServer()
-const wsServer = new WebSocketServer({ server, port: PORT })
+const wsServer = new WebSocketServer({ port: PORT })
 
 const connnections = {}
 const users = {}
