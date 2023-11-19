@@ -12,9 +12,8 @@ const renderCursors = (users) => {
 }
 
 const Home = ({ username }) => {
-    const wsUrl = "wss://live-cursor.onrender.com"
+    const wsUrl = "ws://localhost:3000"
     const { sendJsonMessage, lastJsonMessage } = useWebSocket(wsUrl, {
-        share: true,
         queryParams: { username }
     })
 
