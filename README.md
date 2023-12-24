@@ -1,6 +1,6 @@
 # Live Cursors App ☝️
 
-This is a real-time app that shares the cursors of all currently connected users using web sockets. I was unable to deploy the web socket server so if you want to check out how this looks, feel free to follow the getting started guide.
+This is a simple, real-time app that shares the cursors of all currently connected users using web sockets. I was unable to deploy the web socket server so if you want to check out how this looks, feel free to follow the getting started guide.
 
 ## Technologies Used
 - React JS
